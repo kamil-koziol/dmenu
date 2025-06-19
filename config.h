@@ -7,7 +7,7 @@ static const char *fonts[]          = { "JetBrainsMono Nerd Font:size=18" };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = { "#bbbbbb", "#222222" },
+	[SchemeNorm] = { "#bbbbbb", "#000807" },
 	[SchemeSel] = { "#eeeeee", "#7c0b2b" },
 	[SchemeOut] = { "#000000", "#00ffff" },
 };
